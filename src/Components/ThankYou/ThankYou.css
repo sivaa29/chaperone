@@ -1,0 +1,41 @@
+.thank-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.congo{
+    font-family: 'Poppins', sans-serif;
+    color: #165315;
+    font-weight: 600;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.para{
+    font-family: 'Poppins', sans-serif;
+    color: #165315;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.continue-button{
+    background-color: #165315;
+    color: #ffff;
+    padding: 8px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.plant{
+    height: 100px;
+    margin: 20px;
+}

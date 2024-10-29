@@ -1,0 +1,128 @@
+.products-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 50px;
+    margin-left: 90px;
+    
+}
+
+.product-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+}
+
+.plant-container{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.view-button{
+    background-color: #165315;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    color: #ffff;
+}
+
+.image{
+    width: 180px;
+    height: 250px;
+    margin: 10px;
+}
+
+.plant-details-container{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    margin-top: 10px;
+}
+
+.heading{
+    font-size: 20px;
+    color: #000000;
+}
+
+.text{
+    color: #838383;
+    font-size: 12px;
+    
+}
+
+span{
+    text-decoration: line-through;
+    color: #838383;
+}
+
+.price{
+    font-weight: 500;
+    color: #5E5A5A;
+    
+}
+
+.cart-button{
+    background-color: #165315;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rent-button{
+    background-color: transparent;
+    color: #165315;
+    border: 1px solid #165315;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cart-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.custom-modal{
+    max-width: 50%;
+}
+
+.ReactModal__Content--after-open{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ReactModal__Overlay--after-open{
+    background: none;
+}
+
+.view-more-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
